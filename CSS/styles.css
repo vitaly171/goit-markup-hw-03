@@ -17,6 +17,14 @@ h4 {
   margin-top: 0;
 }
 
+:root {
+  --main-text-cl: #757575;
+  --accent-cl: #2196f3;
+  --title-cl: #212121;
+  --white: #ffffff;
+  --gray-bg: #2f303a;
+  --rgba: rgba(255, 255, 255, 0.6);
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -25,6 +33,40 @@ h4 {
   margin-left: auto;
 }
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-conteiner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.menu {
+  display: inline-flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header .cnt {
+  margin-right: 50px;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
 .list {
   list-style: none;
   margin: 0;
@@ -118,6 +160,9 @@ address {
   font-size: 26px;
   line-height: 1.192;
   color: #2196f3;
+}
+.header .logo {
+  margin-right: 93px;
 }
 
 .logo-studio {
