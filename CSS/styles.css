@@ -107,12 +107,14 @@ h4 {
 }
 
 .page-title {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  text-align: center;
 }
 
 .btn {
