@@ -284,14 +284,34 @@ address {
   justify-content: center;
 }
 
+.portfolio-container {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .btn-portfolio {
+  margin-right: 8px;
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-cl);
-  background-color: #f5f4fa;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+/*.btn-portfolio:not(:last-child) {
+  margin-right: 8px;
+}*/
+
+.samples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.samples-items {
+  border: 1px solid #eeeeee;
 }
 
 .contacts {
