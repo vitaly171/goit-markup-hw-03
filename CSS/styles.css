@@ -279,6 +279,11 @@ address {
   color: var(--main-text-cl);
 }
 
+.portfolio-index {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-portfolio {
   font-weight: 500;
   font-size: 16px;
