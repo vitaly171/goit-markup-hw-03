@@ -47,7 +47,7 @@ p {
 }
 
 .header {
-  border: 1px solid rgba(236, 236, 236, 1);
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header-conteiner {
@@ -104,10 +104,8 @@ p {
 }
 
 .about {
-  margin-top: 94px;
   padding-bottom: 94px;
 }
-
 .about-itens {
   display: flex;
   margin-top: 50px;
@@ -115,6 +113,7 @@ p {
 .about-itens > .about-img:not(:last-child) {
   margin-right: 30px;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -134,8 +133,8 @@ p {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--gray-bg);
 }
-
 .page-title {
   padding-left: 237px;
   padding-right: 237px;
@@ -167,7 +166,8 @@ p {
   color: #ffffff;
 }
 .skills {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .skills-item {
   display: flex;
@@ -194,13 +194,11 @@ address {
   line-height: 1.71;
   color: var(--main-text-cl);
 }
-.team-bg {
-  background-color: var(--cteam-bg);
-}
 
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--cteam-bg);
 }
 .team-container {
   background: #ffffff;
@@ -223,9 +221,6 @@ address {
 
   line-height: 1.87;
   color: var(--main-text-cl);
-}
-.dark-bg {
-  background-color: var(--gray-bg);
 }
 
 .logo {
@@ -262,15 +257,13 @@ address {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--gray-bg);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.foot-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .foot-address-block {
@@ -300,9 +293,10 @@ address {
 }
 
 .portfolio-container {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .btn-li:not(:last-child) {
   margin-right: 8px;
 }
